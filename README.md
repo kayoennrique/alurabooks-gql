@@ -1,4 +1,4 @@
-#AluraBooks
+##AluraBooks
 
 AluraBooks is an online store that sells Casa do Código books.
 It's an MVP that's just beginning and still has many new features to be developed.
