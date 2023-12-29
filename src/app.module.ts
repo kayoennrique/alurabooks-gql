@@ -13,7 +13,7 @@ import { BooksModule } from './books/books.module';
       driver: ApolloDriver,
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
       cors: {
-        origin: 'http://localhost:3000',
+        origin: '*',
         credentials: false,
       },
     }),

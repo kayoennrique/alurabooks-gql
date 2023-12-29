@@ -115,7 +115,7 @@ server.get('/public/lancamentos', (req, res) => {
       imageCover:
         'https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/bootstrap4.png',
       authorId: 4,
-      optionsPurchase: [
+      optionPurchase: [
         {
           id: 1,
           title: 'E-book',
@@ -149,7 +149,7 @@ server.get('/public/lancamentos', (req, res) => {
       imageCover:
         'https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/cangaceirojavascript.png',
       authorId: 5,
-      optionsPurchase: [
+      optionPurchase: [
         {
           id: 1,
           title: 'E-book',
@@ -184,7 +184,7 @@ server.get('/public/lancamentos', (req, res) => {
       imageCover:
         'https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/css.png',
       authorId: 6,
-      optionsPurchase: [
+      optionPurchase: [
         {
           id: 1,
           title: 'E-book',
@@ -223,7 +223,7 @@ server.get('/public/mais-vendidos', (req, res) => {
       imageCover:
         'https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/acessibilidade.png',
       authorId: 1,
-      optionsPurchase: [
+      optionPurchase: [
         {
           id: 1,
           title: 'E-book',
@@ -258,7 +258,7 @@ server.get('/public/mais-vendidos', (req, res) => {
       imageCover:
         'https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/angular.png',
       authorId: 2,
-      optionsPurchase: [
+      optionPurchase: [
         {
           id: 1,
           title: 'E-book',
@@ -292,7 +292,7 @@ server.get('/public/mais-vendidos', (req, res) => {
       imageCover:
         'https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/arquitetura.png',
       authorId: 3,
-      optionsPurchase: [
+      optionPurchase: [
         {
           id: 1,
           title: 'E-book',

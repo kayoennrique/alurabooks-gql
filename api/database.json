@@ -25,7 +25,7 @@
       "publication": "2020-04-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/acessibilidade.png",
       "author": 1,
-      "optionsPurchase": [
+      "optionPurchase": [
         {
           "id": 1,
           "title": "E-book",
@@ -65,7 +65,7 @@
       "publication": "2019-11-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/angular.png",
       "author": 2,
-      "optionsPurchase": [
+      "optionPurchase": [
         {
           "id": 1,
           "title": "E-book",
@@ -105,7 +105,7 @@
       "publication": "2021-10-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/arquitetura.png",
       "author": 3,
-      "optionsPurchase": [
+      "optionPurchase": [
         {
           "id": 1,
           "title": "E-book",
@@ -145,7 +145,7 @@
       "publication": "2018-05-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/bootstrap4.png",
       "author": 4,
-      "optionsPurchase": [
+      "optionPurchase": [
         {
           "id": 1,
           "title": "E-book",
@@ -185,7 +185,7 @@
       "publication": "2017-08-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/cangaceirojavascript.png",
       "author": 5,
-      "optionsPurchase": [
+      "optionPurchase": [
         {
           "id": 1,
           "title": "E-book",
@@ -225,7 +225,7 @@
       "publication": "2015-06-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/css.png",
       "author": 6,
-      "optionsPurchase": [
+      "optionPurchase": [
         {
           "id": 1,
           "title": "E-book",
@@ -265,7 +265,7 @@
       "publication": "2017-09-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/websemantica.png",
       "author": 7,
-      "optionsPurchase": [
+      "optionPurchase": [
         {
           "id": 1,
           "title": "E-book",
@@ -305,7 +305,7 @@
       "publication": "2022-01-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/kafka.png",
       "author": 8,
-      "optionsPurchase": [
+      "optionPurchase": [
         {
           "id": 1,
           "title": "E-book",
@@ -345,7 +345,7 @@
       "publication": "2016-01-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/node.png",
       "author": 9,
-      "optionsPurchase": [
+      "optionPurchase": [
         {
           "id": 1,
           "title": "E-book",
@@ -385,7 +385,7 @@
       "publication": "2021-07-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/typescript.png",
       "author": 10,
-      "optionsPurchase": [
+      "optionPurchase": [
         {
           "id": 1,
           "title": "E-book",
