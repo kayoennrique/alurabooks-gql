@@ -8,8 +8,8 @@ import { Tag } from '../models/tag.model';
 @Injectable()
 export class BooksService {
   async searchHighlights(): Promise<Highlights> {
-    const releases = await http.get('/public/lancamentos');
-    const bestSellers = await http.get('/public/mais-vendidos');
+    const releases = await http.get('/public/releases');
+    const bestSellers = await http.get('/public/best-sellers');
     return {
       releases: releases.data,
       bestSellers: bestSellers.data,
@@ -45,8 +45,8 @@ export class BooksService {
     }
     return null;
   }
-  async searchByTagsDo(livro: Book): Promise<Tag[]> {
+  async searchByTagsDo(book: Book): Promise<Tag[]> {
     const { data: todasAsTags } = await http.get<Tag[]>('tags');
-    return todasAsTags.filter((tag) => livro.tagIds.includes(tag.id));
+    return todasAsTags.filter((tag) => book.tagIds.includes(tag.id));
   }
 }

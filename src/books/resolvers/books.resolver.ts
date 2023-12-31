@@ -41,8 +41,8 @@ export class BooksResolver {
     return this.booksService.searchHighlights();
   }
 
-  @ResolveField('autor', (returns) => Author)
-  async autor(@Parent() book: Book): Promise<Author> {
+  @ResolveField('author', (returns) => Author)
+  async author(@Parent() book: Book): Promise<Author> {
     const { authorId } = book;
     return this.authorsService.searchById(authorId);
   }

@@ -4,8 +4,8 @@
 
 type Author {
   id: Int!
-  nome: String!
-  sobre: String!
+  name: String!
+  about: String!
 }
 
 type OptionPurchase {
@@ -34,7 +34,7 @@ type Book {
   about: String!
   optionPurchase: [OptionPurchase!]!
   tags: [Tag!]!
-  autor: Author!
+  author: Author!
 }
 
 type Highlights {

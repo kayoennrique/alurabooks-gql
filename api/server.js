@@ -37,7 +37,7 @@ function emailExist(email) {
 }
 
 server.post('/public/registrar', (req, res) => {
-  const { email, password, name, address, complement, cep } = req.body;
+  const { email, password, nome, endereco, complemento, cep } = req.body;
 
   if (emailExist(email)) {
     const status = 401;
@@ -63,9 +63,9 @@ server.post('/public/registrar', (req, res) => {
       id: last_item_id + 1,
       email,
       password,
-      name,
-      address,
-      complement,
+      nome,
+      endereco,
+      complemento,
       cep,
     });
     fs.writeFile('./users.json', JSON.stringify(json), (err) => {
@@ -101,7 +101,7 @@ server.post('/public/login', (req, res) => {
   res.status(200).json({ access_token, user });
 });
 
-server.get('/public/lancamentos', (req, res) => {
+server.get('/public/releases', (req, res) => {
   res.status(200).json([
     {
       id: 4,
@@ -209,7 +209,7 @@ server.get('/public/lancamentos', (req, res) => {
   ]);
 });
 
-server.get('/public/mais-vendidos', (req, res) => {
+server.get('/public/best-sellers', (req, res) => {
   res.status(200).json([
     {
       id: 1,

@@ -16,15 +16,18 @@
   "books": [
     {
       "id": 1,
-      "categorie": 3,
+      "authorId": 1,
+      "categorieId": 3,
       "title": "Acessibilidade na Web",
+      "tagIds": [
+        1
+      ],
       "slug": "acessibilidade-na-web",
       "description": "Boas práticas para construir sites e aplicações acessíveis",
       "isbn": "978-65-86110-10-4",
       "numberPages": 246,
       "publication": "2020-04-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/acessibilidade.png",
-      "author": 1,
       "optionPurchase": [
         {
           "id": 1,
@@ -56,7 +59,11 @@
     },
     {
       "id": 2,
-      "categorie": 3,
+      "categorieId": 3,
+      "tagIds": [
+        2,
+        3
+      ],
       "title": "Angular 11 e Firebase",
       "slug": "angular11-e-firebase",
       "description": "Construindo uma aplicação integrada com a plataforma do Google",
@@ -64,7 +71,7 @@
       "numberPages": 163,
       "publication": "2019-11-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/angular.png",
-      "author": 2,
+      "authorId": 2,
       "optionPurchase": [
         {
           "id": 1,
@@ -92,11 +99,14 @@
           ]
         }
       ],
-      "about": "No desenvolvimento de aplicações web e mobile, há disponível uma quantidade expressiva de linguagens, frameworks e ferramentas. Nessa imensidão, é comum se questionar ou até ter inseguranças about qual o melhor caminho para a construção neste segmento. O Angular é uma plataforma que facilita a construção de aplicativos, combinando templates, injeção de dependências, tudo integrado às melhores práticas de desenvolvimento."
+      "about": "No desenvolvimento de aplicações web e mobile, há disponível uma quantidade expressiva de linguagens, frameworks e ferramentas. Nessa imensidão, é comum se questionar ou até ter inseguranças sobre qual o melhor caminho para a construção neste segmento. O Angular é uma plataforma que facilita a construção de aplicativos, combinando templates, injeção de dependências, tudo integrado às melhores práticas de desenvolvimento."
     },
     {
       "id": 3,
-      "categorie": 1,
+      "categorieId": 1,
+      "tagIds": [
+        4
+      ],
       "title": "Arquitetura de software distribuído",
       "slug": "arquitetura-de-software-distribuído",
       "description": "Boas práticas para um mundo de microsserviços",
@@ -104,7 +114,7 @@
       "numberPages": 138,
       "publication": "2021-10-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/arquitetura.png",
-      "author": 3,
+      "authorId": 3,
       "optionPurchase": [
         {
           "id": 1,
@@ -136,7 +146,11 @@
     },
     {
       "id": 4,
-      "categorie": 3,
+      "categorieId": 3,
+      "tagIds": [
+        5,
+        6
+      ],
       "title": "Bootstrap 4",
       "slug": "bootstrap-4",
       "description": "Conheça a biblioteca front-end mais utilizada no mundo",
@@ -144,7 +158,7 @@
       "numberPages": 172,
       "publication": "2018-05-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/bootstrap4.png",
-      "author": 4,
+      "authorId": 4,
       "optionPurchase": [
         {
           "id": 1,
@@ -176,7 +190,10 @@
     },
     {
       "id": 5,
-      "categorie": 3,
+      "categorieId": 3,
+      "tagIds": [
+        7
+      ],
       "title": "Cangaceiro JavaScript",
       "slug": "cangaceiro-javascript",
       "description": "Uma aventura no sertão da programação",
@@ -184,7 +201,7 @@
       "numberPages": 502,
       "publication": "2017-08-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/cangaceirojavascript.png",
-      "author": 5,
+      "authorId": 5,
       "optionPurchase": [
         {
           "id": 1,
@@ -216,7 +233,10 @@
     },
     {
       "id": 6,
-      "categorie": 3,
+      "categorieId": 3,
+      "tagIds": [
+        6
+      ],
       "title": "CSS Eficiente",
       "slug": "css-eficiente",
       "description": "Técnicas e ferramentas que fazem a diferença nos seus estilos",
@@ -224,7 +244,7 @@
       "numberPages": 144,
       "publication": "2015-06-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/css.png",
-      "author": 6,
+      "authorId": 6,
       "optionPurchase": [
         {
           "id": 1,
@@ -256,7 +276,10 @@
     },
     {
       "id": 7,
-      "categorie": 3,
+      "categorieId": 3,
+      "tagIds": [
+        1
+      ],
       "title": "Introdução à Web Semântica",
       "slug": "introducao-a-web-semantica",
       "description": "A inteligência da informação",
@@ -264,7 +287,7 @@
       "numberPages": 170,
       "publication": "2017-09-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/websemantica.png",
-      "author": 7,
+      "authorId": 7,
       "optionPurchase": [
         {
           "id": 1,
@@ -296,7 +319,11 @@
     },
     {
       "id": 8,
-      "categorie": 1,
+      "categorieId": 1,
+      "tagIds": [
+        8,
+        9
+      ],
       "title": "Apache Kafka e Spring Boot",
       "slug": "apache-kafka-e-spring-boot",
       "description": "Comunicação assíncrona entre microsserviços",
@@ -304,7 +331,7 @@
       "numberPages": 189,
       "publication": "2022-01-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/kafka.png",
-      "author": 8,
+      "authorId": 8,
       "optionPurchase": [
         {
           "id": 1,
@@ -336,7 +363,10 @@
     },
     {
       "id": 9,
-      "categorie": 1,
+      "categorieId": 1,
+      "tagIds": [
+        10
+      ],
       "title": "Construindo APIs REST com Node.js",
       "slug": "construindo-apis-rest-com-nodejs",
       "description": "",
@@ -344,7 +374,7 @@
       "numberPages": 187,
       "publication": "2016-01-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/node.png",
-      "author": 9,
+      "authorId": 9,
       "optionPurchase": [
         {
           "id": 1,
@@ -376,15 +406,18 @@
     },
     {
       "id": 10,
-      "categorie": 3,
+      "categorieId": 3,
+      "tagIds": [
+        11
+      ],
       "title": "Guia prático de TypeScript",
       "slug": "guia-pratico-de-typescript",
-      "descricao": "Melhore suas aplicações JavaScript",
+      "description": "Melhore suas aplicações JavaScript",
       "isbn": "978-65-86110-77-7",
       "numberPages": 178,
       "publication": "2021-07-01",
       "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/typescript.png",
-      "author": 10,
+      "authorId": 10,
       "optionPurchase": [
         {
           "id": 1,
@@ -429,7 +462,7 @@
     {
       "id": 3,
       "name": "Flávio Lisboa",
-      "about": "Flávio Gomes da Silva Lisboa é bacharel em Ciência da Computação, especialista em tecnologia Java, certificado como engenheiro e arquiteto em PHP e Zend Framework e mestrando em Tecnologia e Sociedade. Tem experiência como programador e como gestor de projeto de software. É professor de disciplinas de programação orientada a objetos, testes unitários e frameworks de desenvolvimento. Tem seis books publicados about programação na linguagem PHP e dez anos de experiência em treinamento para desenvolvedores de software. Foi keynote speaker na PHP Conference Brasil e palestrante e instrutor em diversos eventos de software. Trabalha como analista no Serviço Federal de Processamento de Dados e é contribuidor do projeto Nextcloud. É fã de histórias em quadrinhos, escreveu a hexalogia Rom, Biografia Não Authorizada e mantém o blog romocavaleirodoespaco.blogspot.com"
+      "about": "Flávio Gomes da Silva Lisboa é bacharel em Ciência da Computação, especialista em tecnologia Java, certificado como engenheiro e arquiteto em PHP e Zend Framework e mestrando em Tecnologia e Sociedade. Tem experiência como programador e como gestor de projeto de software. É professor de disciplinas de programação orientada a objetos, testes unitários e frameworks de desenvolvimento. Tem seis books publicados sobre programação na linguagem PHP e dez anos de experiência em treinamento para desenvolvedores de software. Foi keynote speaker na PHP Conference Brasil e palestrante e instrutor em diversos eventos de software. Trabalha como analista no Serviço Federal de Processamento de Dados e é contribuidor do projeto Nextcloud. É fã de histórias em quadrinhos, escreveu a hexalogia Rom, Biografia Não Autorizada e mantém o blog romocavaleirodoespaco.blogspot.com"
     },
     {
       "id": 4,
@@ -439,7 +472,7 @@
     {
       "id": 5,
       "name": "Flávio Almeida",
-      "about": "Flávio Almeida é desenvolvedor e instrutor na Caelum. Possui mais de 14 anos de experiência na área de desenvolvimento com ampla atuação em segmentos da indústria de shopping centers e varejo. Bacharel em Informática com MBA em Gestão de Negócios em TI, possui Psicologia como segunda graduação e procura aplicar o que aprendeu no desenvolvimento de software e na educação. Trabalha com a plataforma Java desde 2004, mas, atualmente, tem focado na plataforma Node.js e na linguagem JavaScript, tentando aproximar ainda mais front-end e back-end. Participou das edições 2013 e 2014 da MobileConf e costuma contribuir com o Blog da Caelum about os mais diversos assuntos. Elabora treinamentos para a plataforma online Alura, atividade que vem se tornando cada vez mais prazerosa. Possui uma conta no Twitter e outra no GitHub."
+      "about": "Flávio Almeida é desenvolvedor e instrutor na Caelum. Possui mais de 14 anos de experiência na área de desenvolvimento com ampla atuação em segmentos da indústria de shopping centers e varejo. Bacharel em Informática com MBA em Gestão de Negócios em TI, possui Psicologia como segunda graduação e procura aplicar o que aprendeu no desenvolvimento de software e na educação. Trabalha com a plataforma Java desde 2004, mas, atualmente, tem focado na plataforma Node.js e na linguagem JavaScript, tentando aproximar ainda mais front-end e back-end. Participou das edições 2013 e 2014 da MobileConf e costuma contribuir com o Blog da Caelum sobre os mais diversos assuntos. Elabora treinamentos para a plataforma online Alura, atividade que vem se tornando cada vez mais prazerosa. Possui uma conta no Twitter e outra no GitHub."
     },
     {
       "id": 6,
@@ -449,7 +482,7 @@
     {
       "id": 7,
       "name": "Diego Eis",
-      "about": "Diego Eis é apaixonado e sempre trabalhou com internet. Em 2003, fundou o Tableless, onde escreve com vários outros  about desenvolvimento web e front-end. Já palestrou em vários eventos nacionais de tecnologia, faculdades e empresas por todo o país, passou seis anos de sua carreira profissional dirigindo a própria empresa, fazendo projetos para companhias como Globo.com, Itaú, Nokia, Samsung e outras. É author do livro Guia Front-End, destinado aos iniciantes da área. Atualmente, é gestor de produtos na Easynvest."
+      "about": "Diego Eis é apaixonado e sempre trabalhou com internet. Em 2003, fundou o Tableless, onde escreve com vários outros autores sobre desenvolvimento web e front-end. Já palestrou em vários eventos nacionais de tecnologia, faculdades e empresas por todo o país, passou seis anos de sua carreira profissional dirigindo a própria empresa, fazendo projetos para companhias como Globo.com, Itaú, Nokia, Samsung e outras. É autor do livro Guia Front-End, destinado aos iniciantes da área. Atualmente, é gestor de produtos na Easynvest."
     },
     {
       "id": 8,
@@ -459,7 +492,7 @@
     {
       "id": 9,
       "name": "Caio Ribeiro Pereira",
-      "about": "Caio Ribeiro Pereira é desenvolvedor desde 2008, já brincou muito com Java, PHP, Ruby e atualmente brinca muito com tudo que envolve JavaScript, React, React Native e Node.js! Bacharel em Sistemas de Informação pela Universidade Católica de Santos, nos tempos livres escreve alguns post no seu blog Underground WebDev (udgwebdev.com), de vez em quando contribui no open-source em projetos como Moment.js, Sequelize.js, VanillaMasker, DevFreeBooks e outros em seu GitHub (github.com/caio-ribeiro-pereira), também é admin do Facebook Groups JavaScript - Brazil e atualmente é founder da WatchCoins (watchcoins.net) uma plataforma para acompanhar o mercado de bitcoin e outras criptomoedas. Para saber mais about ele, acesse: crpwebdev.github.io"
+      "about": "Caio Ribeiro Pereira é desenvolvedor desde 2008, já brincou muito com Java, PHP, Ruby e atualmente brinca muito com tudo que envolve JavaScript, React, React Native e Node.js! Bacharel em Sistemas de Informação pela Universidade Católica de Santos, nos tempos livres escreve alguns post no seu blog Underground WebDev (udgwebdev.com), de vez em quando contribui no open-source em projetos como Moment.js, Sequelize.js, VanillaMasker, DevFreeBooks e outros em seu GitHub (github.com/caio-ribeiro-pereira), também é admin do Facebook Groups JavaScript - Brazil e atualmente é founder da WatchCoins (watchcoins.net) uma plataforma para acompanhar o mercado de bitcoin e outras criptomoedas. Para saber mais sobre ele, acesse: crpwebdev.github.io"
     },
     {
       "id": 10,
@@ -497,6 +530,144 @@
       "id": 6,
       "name": "Design e UX",
       "slug": "design-e-ux"
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "itens": [
+        {
+          "bookId": 4,
+          "optionPurchaseId": 1,
+          "amount": 3,
+          "book": {
+            "id": 4,
+            "categorieId": 3,
+            "tagIds": [
+              5,
+              6
+            ],
+            "title": "Bootstrap 4",
+            "slug": "bootstrap-4",
+            "description": "Conheça a biblioteca front-end mais utilizada no mundo",
+            "isbn": "978-85-94188-60-1",
+            "numberPages": 172,
+            "publication": "2018-05-01",
+            "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/bootstrap4.png",
+            "authorId": 4,
+            "optionPurchase": [
+              {
+                "id": 1,
+                "title": "E-book",
+                "price": 29.9,
+                "formats": [
+                  ".pdf",
+                  ".pub",
+                  ".mob"
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Impresso",
+                "price": 39.9
+              },
+              {
+                "id": 3,
+                "title": "E-book + Impresso",
+                "price": 59.9,
+                "formats": [
+                  ".pdf",
+                  ".pub",
+                  ".mob"
+                ]
+              }
+            ],
+            "about": "Fazer um site elegante nunca foi tão fácil, mesmo para quem não sabe escrever uma linha de CSS e, muito menos, entende como harmonizar cores, balancear elementos e tipografia. O Bootstrap é, resumidamente, um grande arquivo CSS com uma excelente documentação, que possui dezenas e dezenas de componentes prontos. No começo, foi criado pelo Twitter para servir como um guia de estilos em CSS da empresa; hoje, é a biblioteca mais famosa e utilizada no mundo."
+          },
+          "optionPurchase": {
+            "id": 1,
+            "title": "E-book",
+            "price": 29.9,
+            "formats": [
+              ".pdf",
+              ".pub",
+              ".mob"
+            ]
+          }
+        },
+        {
+          "bookId": 2,
+          "optionPurchaseId": 1,
+          "amount": 1
+        },
+        {
+          "bookId": 1,
+          "optionPurchaseId": 1,
+          "amount": 1
+        },
+        {
+          "bookId": 3,
+          "optionPurchaseId": 2,
+          "amount": 1
+        },
+        {
+          "bookId": 8,
+          "optionPurchaseId": 2,
+          "amount": 0
+        },
+        {
+          "bookId": 6,
+          "optionPurchaseId": 3,
+          "amount": 1
+        }
+      ],
+      "total": 89.8
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Acessibilidade"
+    },
+    {
+      "id": 2,
+      "name": "Angular"
+    },
+    {
+      "id": 3,
+      "name": "Firebase"
+    },
+    {
+      "id": 4,
+      "name": "Arquitetura"
+    },
+    {
+      "id": 5,
+      "name": "BootStrap"
+    },
+    {
+      "id": 6,
+      "name": "CSS"
+    },
+    {
+      "id": 7,
+      "name": "JavaScript"
+    },
+    {
+      "id": 8,
+      "name": "Kafka"
+    },
+    {
+      "id": 9,
+      "name": "Spring Boot"
+    },
+    {
+      "id": 10,
+      "name": "Node"
+    },
+    {
+      "id": 11,
+      "name": "TypeScript"
     }
   ]
 }

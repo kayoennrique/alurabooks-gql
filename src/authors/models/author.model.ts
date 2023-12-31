@@ -4,7 +4,7 @@ export class Author {
   @Field((type) => Int)
   id: number;
   @Field((type) => String)
-  nome: string;
+  name: string;
   @Field((type) => String)
-  sobre: string;
+  about: string;
 }
